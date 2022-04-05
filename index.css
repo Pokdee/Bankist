@@ -240,6 +240,9 @@ svg {
   .features {
     gap: 3rem;
   }
+  .features__header {
+    font-size: 1rem;
+  }
   .features__feature p {
     width: 17ch;
     line-height: 17px;
@@ -636,10 +639,14 @@ footer > ul {
   font-size: 0.5rem;
   box-sizing: border-box;
 }
+.footer__copyright > a {
+  margin: 0%;
+}
 @media (min-width: 600px) {
   footer > ul {
     gap: 1rem;
   }
+  .footer__copyright,
   .footer__item > a,
   .footer__copyright > a {
     font-size: 1rem;
@@ -661,7 +668,7 @@ footer > img {
   z-index: 2;
   background-color: #f3f3f3;
   width: 80%;
-  height: 40%;
+  min-height: 40%;
   border-radius: 2rem;
   display: grid;
   grid-template-columns: 20% 1fr 15% 5%;
@@ -686,7 +693,7 @@ footer > img {
 
 .modal__header {
   font-size: 1rem;
-  line-height: 1.3rem;
+  line-height: 1.5rem;
   grid-column: 1/5;
   grid-row: 2/3;
   text-align: center;
