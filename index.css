@@ -685,7 +685,6 @@ footer > img {
   padding: 0%;
   border: none;
   margin-top: 0.5rem;
-  margin-right: -0.9rem;
 }
 .modal > button:hover {
   color: red;
@@ -699,6 +698,9 @@ footer > img {
   text-align: center;
   margin: 0%;
   padding: 0%;
+}
+.modal__header > .highlight {
+  padding: 0.2rem 1rem;
 }
 
 .modal__form {
